@@ -64,6 +64,8 @@ O(N)的算法有哪些:
 
 ## 相向双指针
 
+### 题型
+
 * Reverse型
   * 翻转字符串
   * 判断回文串
@@ -74,9 +76,9 @@ O(N)的算法有哪些:
   * 快排
   * 颜色排序
 
-## 例题
+### 例题
 
-### 有效回文串
+#### 有效回文串1
 
 [valid palindrome](https://www.lintcode.com/problem/415/)
 
@@ -103,7 +105,9 @@ O(N)的算法有哪些:
 O(n) 时间复杂度，且不占用额外空间。
 ```
 
+双指针方式, 从两端到中间比较, 不占用额外空间, 注意如果遇到不合法的数据, 需要跳过
 
+注意需要熟悉Character中判断是否是数字和字母的函数: `Character.isLetterOrDigit`, `Character.isLetter`, `Character.isDigit`
 
 解:
 
@@ -133,4 +137,39 @@ public boolean isPalindrome(String s) {
     return true;
 }
 ```
+
+#### 有效回文串2
+
+[valid palindrome2](https://www.lintcode.com/problem/891)
+
+```
+描述
+给一个非空字符串 s，你最多可以删除一个字符。判断是否可以把它变成回文串。
+
+样例
+样例 1:
+输入: s = "aba"
+输出: true
+解释: 原本就是回文串
+
+样例 2:
+输入: s = "abca"
+输出: true
+解释: 删除 'b' 或 'c'
+
+样例 3:
+输入: s = "abc"
+输出: false
+解释: 删除任何一个字符都不能使之变成回文串
+```
+
+**04.5 有效回文串 II_1**
+
+
+
+
+
+
+
+
 
