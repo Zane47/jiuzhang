@@ -163,7 +163,27 @@ public boolean isPalindrome(String s) {
 解释: 删除任何一个字符都不能使之变成回文串
 ```
 
-**04.5 有效回文串 II_1**
+04.5 有效回文串 II_1
+
+
+
+
+
+
+
+
+
+#### 两数之和-哈希表
+
+[link](https://pan.baidu.com/disk/home?from=newversion&stayAtHome=true#/all?vmode=list&path=%2F0.%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%B3%95%E7%8F%AD%202021%20%E7%89%88%E3%80%90%E5%AE%8C%E7%BB%93%E3%80%91%2F04%E7%AC%AC%E5%9B%9B%E7%AB%A0%E3%80%90%E4%BA%92%E5%8A%A8%E3%80%91%E5%A4%8D%E6%9D%82%E5%BA%A6%E7%90%86%E8%AE%BA%E4%B8%8E%E5%8F%8C%E6%8C%87%E9%92%88%E7%AE%97%E6%B3%95%E5%85%A5%E9%97%A8)
+
+
+
+
+
+#### 两数之和-双指针
+
+
 
 
 
